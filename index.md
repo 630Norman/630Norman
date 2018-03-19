@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+﻿
+<style>
+  .主題 {
+    color: yellow;
+    font-size:40px;
+    
+  }
+  .back {
+  background-color: black;
+}
+  .副題1{
+    color:red;
+    font-size:40px;
+    text-align:center;
+  }
+  
 
-You can use the [editor on GitHub](https://github.com/630Norman/630Norman/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+  .副題2 {
+    font-size: 30px;
+    color:white;
+    text-align:center;
+  }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+</style>
+<div class="back">
+<h2 class="主題"><marquee behavior=alternate> 我愛聖結石</marquee> </h2>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/630Norman/630Norman/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<p class="副題1">BANG! ! !</p>
+<p class="副題2">1.我今天中午要吃雞腿BANG當</p>
+<p class="副題2">2.要買輕BANG雨衣要買三件</p>
+<p class="副題2">3.遇到困難BANG則通，通則達</p>
+  
+<img src="https://i.kfs.io/album/global/31090288,0v1/fit/500x500.jpg" alt="聖結石"width="400" height="400"style="display:block; margin:auto;">
