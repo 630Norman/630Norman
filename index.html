@@ -1,28 +1,53 @@
 
-
 <style>
-  .¥DÃD {
+  .ä¸»é¡Œ {
     color: yellow;
+    font-size:40px;
+    
   }
   .back {
   background-color: black;
 }
-  .°ÆÃD1{
+  .å‰¯é¡Œ1{
     color:red;
     font-size:40px;
+    text-align:center;
   }
   
 
-  .°ÆÃD2 {
-    font-size: 20px;
+  .å‰¯é¡Œ2 {
+    font-size: 30px;
     color:white;
+    text-align:center;
   }
-</style>
-<div class="back">
-<h2 class="¥DÃD">§Ú·R¸tµ²¥Û</h2>
 
-<p class="°ÆÃD1">BANG</p>
-<p class="°ÆÃD2">1.§Ú¤µ¤Ñ¤¤¤È­n¦YÂû»LBANG·í</p>
-<p class="°ÆÃD2">2.­n¶R»´BANG«B¦ç­n¶R¤T¥ó</p>
-<p class="°ÆÃD2">3.¹J¨ì§xÃøBAN«h³q¡A³q«h¹F</p>
-<img src="https://i.kfs.io/album/global/31090288,0v1/fit/500x500.jpg" alt="¸tµ²¥Û"width="200" height="£x00">
+</style>
+
+<div class="back">
+<h2 class="ä¸»é¡Œ"><marquee behavior=alternate> æˆ‘æ„›è–çµçŸ³</marquee> </h2>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>fadeOut demo</title>
+  <style>
+  p {
+    font-size: 150%;
+    cursor: pointer;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+<p class="å‰¯é¡Œ1">BANG! ! !</p>
+<p class="å‰¯é¡Œ2">1.æˆ‘ä»Šå¤©ä¸­åˆè¦åƒé›è…¿BANGç•¶</p>
+<p class="å‰¯é¡Œ2">2.è¦è²·è¼•BANGé›¨è¡£è¦è²·ä¸‰ä»¶</p>
+<p class="å‰¯é¡Œ2">3.é‡åˆ°å›°é›£BANGå‰‡é€šï¼Œé€šå‰‡é”</p>
+<img src="https://i.kfs.io/album/global/31090288,0v1/fit/500x500.jpg" alt="è–çµçŸ³"width="400" height="400"style="display:block; margin:auto;">
+<script>
+$( "p" ).click(function() {
+  $( "img" ).fadeOut( "slow" );
+});
+</script>
+ 
+</body>
